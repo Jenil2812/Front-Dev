@@ -11,6 +11,16 @@ body {
 }
 .header {
     margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
 }
 .fact-form {
     background-color: #44403c;
@@ -23,6 +33,8 @@ h1 {
     font-family: "Coiny", sans-serif;
     text-transform: uppercase;
     color: #fafaf9;
+    line-height: 1;
+    margin-top: 6px;
 }
 
 .fact {
