@@ -24,6 +24,9 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+.hidden {
+    display: none !important;
+}
 .fact-form {
     background-color: #44403c;
     margin-bottom: 40px;
